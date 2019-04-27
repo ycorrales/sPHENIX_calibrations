@@ -419,7 +419,7 @@
     </material>
     <element name="TUNGSTEN_elm" formula="W" Z="74">
       <atom unit="g/mole" value="183.84"/>
-    </elemen>
+    </element>
     <material name="ITS_TUNGCARB">
       <D unit="g/cm3" value="15.63"/>
       <fraction n="0.5" ref="CARBON_elm"/>
