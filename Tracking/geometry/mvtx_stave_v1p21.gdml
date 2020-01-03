@@ -3,87 +3,78 @@
   <define>
     <position name="MetalStack_1inMVTXChippos" x="0" y="0.00175" z="0" unit="cm"/>
     <position name="MVTXSensor_1inMVTXChippos" x="0.058128" y="-0.0005" z="0" unit="cm"/>
-    <position name="MVTXChip_0inMVTXModulepos" x="-0.0275" y="-0.02075" z="12.06" unit="cm"/>
-    <rotation name="MVTXChip_0inMVTXModulerot" x="180" y="0" z="180" unit="deg"/>
-    <position name="MVTXChip_1inMVTXModulepos" x="-0.0275" y="-0.02075" z="9.045" unit="cm"/>
-    <rotation name="MVTXChip_1inMVTXModulerot" x="180" y="0" z="180" unit="deg"/>
-    <position name="MVTXChip_2inMVTXModulepos" x="-0.0275" y="-0.02075" z="6.030" unit="cm"/>
-    <rotation name="MVTXChip_2inMVTXModulerot" x="180" y="0" z="180" unit="deg"/>
-    <position name="MVTXChip_3inMVTXModulepos" x="-0.0275" y="-0.02075" z="3.015" unit="cm"/>
-    <rotation name="MVTXChip_3inMVTXModulerot" x="180" y="0" z="180" unit="deg"/>
-    <position name="MVTXChip_4inMVTXModulepos" x="-0.0275" y="-0.02075" z="0" unit="cm"/>
-    <rotation name="MVTXChip_4inMVTXModulerot" x="180" y="0" z="180" unit="deg"/>
-    <position name="MVTXChip_5inMVTXModulepos" x="-0.0275" y="-0.02075" z="-3.015" unit="cm"/>
-    <rotation name="MVTXChip_5inMVTXModulerot" x="180" y="0" z="180" unit="deg"/>
-    <position name="MVTXChip_6inMVTXModulepos" x="-0.0275" y="-0.02075" z="-6.030" unit="cm"/>
-    <rotation name="MVTXChip_6inMVTXModulerot" x="180" y="0" z="180" unit="deg"/>
-    <position name="MVTXChip_7inMVTXModulepos" x="-0.0275" y="-0.02075" z="-9.045" unit="cm"/>
-    <rotation name="MVTXChip_7inMVTXModulerot" x="180" y="0" z="180" unit="deg"/>
-    <position name="MVTXChip_8inMVTXModulepos" x="-0.0275" y="-0.02075" z="-12.06" unit="cm"/>
-    <rotation name="MVTXChip_8inMVTXModulerot" x="180" y="0" z="180" unit="deg"/>
-    <position name="FPCGlue_1inMVTXModulepos" x="-0.0275" y="-0.01575" z="0" unit="cm"/>
+    <position name="MVTXChip_0inMVTXModulepos" x="0.0275" y="-0.02075" z="-12.06" unit="cm"/>
+    <position name="MVTXChip_1inMVTXModulepos" x="0.0275" y="-0.02075" z="-9.045" unit="cm"/>
+    <position name="MVTXChip_2inMVTXModulepos" x="0.0275" y="-0.02075" z="-6.030" unit="cm"/>
+    <position name="MVTXChip_3inMVTXModulepos" x="0.0275" y="-0.02075" z="-3.015" unit="cm"/>
+    <position name="MVTXChip_4inMVTXModulepos" x="0.0275" y="-0.02075" z="0" unit="cm"/>
+    <position name="MVTXChip_5inMVTXModulepos" x="0.0275" y="-0.02075" z="3.015" unit="cm"/>
+    <position name="MVTXChip_6inMVTXModulepos" x="0.0275" y="-0.02075" z="6.030" unit="cm"/>
+    <position name="MVTXChip_7inMVTXModulepos" x="0.0275" y="-0.02075" z="9.045" unit="cm"/>
+    <position name="MVTXChip_8inMVTXModulepos" x="0.0275" y="-0.02075" z="12.06" unit="cm"/>
+    <position name="FPCGlue_1inMVTXModulepos"  x="0.0275" y="-0.01575" z="0" unit="cm"/>
     <position name="FPCAluminumGround_1inFPCKaptonpos" x="0" y="-0.0050" z="0" unit="cm"/>
     <position name="FPCAluminumAnode_1inFPCKaptonpos"  x="0" y="0.0050" z="0" unit="cm"/>
-    <rotation name="FPCAluminumAnode_1inFPCKaptonrot"  x="90" y="0" z="0" unit="deg"/>
+    <rotation name="FPCAluminumAnode_1inFPCKaptonrot"  x="90" y="0" z="180" unit="deg"/>
     <position name="FPCKapton_1inMVTXModulepos" x="0" y="-0.0050" z="0" unit="cm"/>
-    <position name="IBFPCCapacitor_1inMVTXModulepos" x="-0.42659" y="0.01325" z="12.77429" unit="cm"/>
-    <position name="IBFPCCapacitor_2inMVTXModulepos" x="-0.42659" y="0.01325" z="11.30059" unit="cm"/>
-    <position name="IBFPCCapacitor_3inMVTXModulepos" x="-0.42659" y="0.01325" z="9.759290" unit="cm"/>
-    <position name="IBFPCCapacitor_4inMVTXModulepos" x="-0.42659" y="0.01325" z="8.285590" unit="cm"/>
-    <position name="IBFPCCapacitor_5inMVTXModulepos" x="-0.42659" y="0.01325" z="6.744290" unit="cm"/>
-    <position name="IBFPCCapacitor_6inMVTXModulepos" x="-0.42659" y="0.01325" z="5.270590" unit="cm"/>
-    <position name="IBFPCCapacitor_7inMVTXModulepos" x="-0.42659" y="0.01325" z="3.729290" unit="cm"/>
-    <position name="IBFPCCapacitor_8inMVTXModulepos" x="-0.42659" y="0.01325" z="2.255590" unit="cm"/>
-    <position name="IBFPCCapacitor_9inMVTXModulepos" x="-0.42659" y="0.01325" z="0.714290" unit="cm"/>
-    <position name="IBFPCCapacitor_10inMVTXModulepos" x="-0.42659" y="0.01325" z="-0.75941" unit="cm"/>
-    <position name="IBFPCCapacitor_11inMVTXModulepos" x="-0.42659" y="0.01325" z="-2.30071" unit="cm"/>
-    <position name="IBFPCCapacitor_12inMVTXModulepos" x="-0.42659" y="0.01325" z="-3.77441" unit="cm"/>
-    <position name="IBFPCCapacitor_13inMVTXModulepos" x="-0.42659" y="0.01325" z="-5.31571" unit="cm"/>
-    <position name="IBFPCCapacitor_14inMVTXModulepos" x="-0.42659" y="0.01325" z="-6.78941" unit="cm"/>
-    <position name="IBFPCCapacitor_15inMVTXModulepos" x="-0.42659" y="0.01325" z="-8.33071" unit="cm"/>
-    <position name="IBFPCCapacitor_16inMVTXModulepos" x="-0.42659" y="0.01325" z="-9.80441" unit="cm"/>
-    <position name="IBFPCCapacitor_17inMVTXModulepos" x="-0.42659" y="0.01325" z="-11.34571" unit="cm"/>
-    <position name="IBFPCCapacitor_18inMVTXModulepos" x="-0.42659" y="0.01325" z="-12.81941" unit="cm"/>
-    <position name="IBFPCCapacitor_19inMVTXModulepos" x="-0.06909" y="0.01325" z="12.77429" unit="cm"/>
-    <position name="IBFPCCapacitor_20inMVTXModulepos" x="-0.06909" y="0.01325" z="9.75929" unit="cm"/>
-    <position name="IBFPCCapacitor_21inMVTXModulepos" x="-0.06909" y="0.01325" z="6.74429" unit="cm"/>
-    <position name="IBFPCCapacitor_22inMVTXModulepos" x="-0.06909" y="0.01325" z="3.72929" unit="cm"/>
-    <position name="IBFPCCapacitor_23inMVTXModulepos" x="-0.06909" y="0.01325" z="0.71429" unit="cm"/>
-    <position name="IBFPCCapacitor_24inMVTXModulepos" x="-0.06909" y="0.01325" z="-2.30071" unit="cm"/>
-    <position name="IBFPCCapacitor_25inMVTXModulepos" x="-0.06909" y="0.01325" z="-5.31571" unit="cm"/>
-    <position name="IBFPCCapacitor_26inMVTXModulepos" x="-0.06909" y="0.01325" z="-8.33071" unit="cm"/>
-    <position name="IBFPCCapacitor_27inMVTXModulepos" x="-0.06909" y="0.01325" z="-11.34571" unit="cm"/>
-    <position name="IBFPCCapacitor_28inMVTXModulepos" x="-0.63000" y="0.01325" z="10.5525" unit="cm"/>
-    <position name="IBFPCCapacitor_29inMVTXModulepos" x="-0.63000" y="0.01325" z="7.53750" unit="cm"/>
-    <position name="IBFPCCapacitor_30inMVTXModulepos" x="-0.63000" y="0.01325" z="4.52250" unit="cm"/>
-    <position name="IBFPCCapacitor_31inMVTXModulepos" x="-0.63000" y="0.01325" z="1.50750" unit="cm"/>
-    <position name="IBFPCCapacitor_32inMVTXModulepos" x="-0.63000" y="0.01325" z="-1.5075" unit="cm"/>
-    <position name="IBFPCCapacitor_33inMVTXModulepos" x="-0.63000" y="0.01325" z="-4.5225" unit="cm"/>
-    <position name="IBFPCCapacitor_34inMVTXModulepos" x="-0.63000" y="0.01325" z="-7.5375" unit="cm"/>
-    <position name="IBFPCCapacitor_35inMVTXModulepos" x="-0.63000" y="0.01325" z="-10.5525" unit="cm"/>
-    <position name="IBFPCCapacitor_36inMVTXModulepos" x="-0.55750" y="0.01325" z="-13.1900" unit="cm"/>
-    <position name="IBFPCCapacitor_37inMVTXModulepos" x="-0.56000" y="0.01325" z="12.03250" unit="cm"/>
-    <position name="IBFPCCapacitor_38inMVTXModulepos" x="-0.56000" y="0.01325" z="9.020000" unit="cm"/>
-    <position name="IBFPCCapacitor_39inMVTXModulepos" x="-0.56000" y="0.01325" z="6.002500" unit="cm"/>
-    <position name="IBFPCCapacitor_40inMVTXModulepos" x="-0.56000" y="0.01325" z="2.990000" unit="cm"/>
-    <position name="IBFPCCapacitor_41inMVTXModulepos" x="-0.56000" y="0.01325" z="-0.02500" unit="cm"/>
-    <position name="IBFPCCapacitor_42inMVTXModulepos" x="-0.56000" y="0.01325" z="-3.04500" unit="cm"/>
-    <position name="IBFPCCapacitor_43inMVTXModulepos" x="-0.56000" y="0.01325" z="-6.05500" unit="cm"/>
-    <position name="IBFPCCapacitor_44inMVTXModulepos" x="-0.56000" y="0.01325" z="-9.07500" unit="cm"/>
-    <position name="IBFPCCapacitor_45inMVTXModulepos" x="-0.5575" y="0.01325" z="-12.08500" unit="cm"/>
-    <position name="IBFPCCapacitor_46inMVTXModulepos" x="-0.1400" y="0.01325" z="11.29575" unit="cm"/>
-    <position name="IBFPCCapacitor_47inMVTXModulepos" x="-0.1350" y="0.01325" z="8.285450" unit="cm"/>
-    <position name="IBFPCCapacitor_48inMVTXModulepos" x="-0.1350" y="0.01325" z="-0.75955" unit="cm"/>
-    <position name="IBFPCCapacitor_49inMVTXModulepos" x="-0.1350" y="0.01325" z="-3.77455" unit="cm"/>
-    <position name="IBFPCCapacitor_50inMVTXModulepos" x="-0.1350" y="0.01325" z="-12.81941" unit="cm"/>
-    <position name="IBFPCCapacitor_51inMVTXModulepos" x="-0.11" y="0.01325" z="5.1525" unit="cm"/>
-    <position name="IBFPCCapacitor_52inMVTXModulepos" x="-0.11" y="0.01325" z="2.1375" unit="cm"/>
-    <position name="IBFPCCapacitor_53inMVTXModulepos" x="-0.11" y="0.01325" z="-6.9075" unit="cm"/>
-    <position name="IBFPCCapacitor_54inMVTXModulepos" x="-0.11" y="0.01325" z="-9.9225" unit="cm"/>
-    <position name="IBFPCResistor_1inMVTXModulepos" x="0.79750" y="0.01325" z="-11.4403" unit="cm"/>
-    <position name="IBFPCResistor_2inMVTXModulepos" x="0.79750" y="0.01325" z="-11.9222" unit="cm"/>
+    <position name="IBFPCCapacitor_1inMVTXModulepos" x="0.42659" y="0.01325" z="-12.77429" unit="cm"/>
+    <position name="IBFPCCapacitor_2inMVTXModulepos" x="0.42659" y="0.01325" z="-11.30059" unit="cm"/>
+    <position name="IBFPCCapacitor_3inMVTXModulepos" x="0.42659" y="0.01325" z="-9.759290" unit="cm"/>
+    <position name="IBFPCCapacitor_4inMVTXModulepos" x="0.42659" y="0.01325" z="-8.285590" unit="cm"/>
+    <position name="IBFPCCapacitor_5inMVTXModulepos" x="0.42659" y="0.01325" z="-6.744290" unit="cm"/>
+    <position name="IBFPCCapacitor_6inMVTXModulepos" x="0.42659" y="0.01325" z="-5.270590" unit="cm"/>
+    <position name="IBFPCCapacitor_7inMVTXModulepos" x="0.42659" y="0.01325" z="-3.729290" unit="cm"/>
+    <position name="IBFPCCapacitor_8inMVTXModulepos" x="0.42659" y="0.01325" z="-2.255590" unit="cm"/>
+    <position name="IBFPCCapacitor_9inMVTXModulepos" x="0.42659" y="0.01325" z="-0.714290" unit="cm"/>
+    <position name="IBFPCCapacitor_10inMVTXModulepos" x="0.42659" y="0.01325" z="0.75941" unit="cm"/>
+    <position name="IBFPCCapacitor_11inMVTXModulepos" x="0.42659" y="0.01325" z="2.30071" unit="cm"/>
+    <position name="IBFPCCapacitor_12inMVTXModulepos" x="0.42659" y="0.01325" z="3.77441" unit="cm"/>
+    <position name="IBFPCCapacitor_13inMVTXModulepos" x="0.42659" y="0.01325" z="5.31571" unit="cm"/>
+    <position name="IBFPCCapacitor_14inMVTXModulepos" x="0.42659" y="0.01325" z="6.78941" unit="cm"/>
+    <position name="IBFPCCapacitor_15inMVTXModulepos" x="0.42659" y="0.01325" z="8.33071" unit="cm"/>
+    <position name="IBFPCCapacitor_16inMVTXModulepos" x="0.42659" y="0.01325" z="9.80441" unit="cm"/>
+    <position name="IBFPCCapacitor_17inMVTXModulepos" x="0.42659" y="0.01325" z="11.34571" unit="cm"/>
+    <position name="IBFPCCapacitor_18inMVTXModulepos" x="0.42659" y="0.01325" z="12.81941" unit="cm"/>
+    <position name="IBFPCCapacitor_19inMVTXModulepos" x="0.06909" y="0.01325" z="-12.77429" unit="cm"/>
+    <position name="IBFPCCapacitor_20inMVTXModulepos" x="0.06909" y="0.01325" z="-9.75929" unit="cm"/>
+    <position name="IBFPCCapacitor_21inMVTXModulepos" x="0.06909" y="0.01325" z="-6.74429" unit="cm"/>
+    <position name="IBFPCCapacitor_22inMVTXModulepos" x="0.06909" y="0.01325" z="-3.72929" unit="cm"/>
+    <position name="IBFPCCapacitor_23inMVTXModulepos" x="0.06909" y="0.01325" z="-0.71429" unit="cm"/>
+    <position name="IBFPCCapacitor_24inMVTXModulepos" x="0.06909" y="0.01325" z="2.30071" unit="cm"/>
+    <position name="IBFPCCapacitor_25inMVTXModulepos" x="0.06909" y="0.01325" z="5.31571" unit="cm"/>
+    <position name="IBFPCCapacitor_26inMVTXModulepos" x="0.06909" y="0.01325" z="8.33071" unit="cm"/>
+    <position name="IBFPCCapacitor_27inMVTXModulepos" x="0.06909" y="0.01325" z="11.34571" unit="cm"/>
+    <position name="IBFPCCapacitor_28inMVTXModulepos" x="0.63000" y="0.01325" z="-10.5525" unit="cm"/>
+    <position name="IBFPCCapacitor_29inMVTXModulepos" x="0.63000" y="0.01325" z="-7.53750" unit="cm"/>
+    <position name="IBFPCCapacitor_30inMVTXModulepos" x="0.63000" y="0.01325" z="-4.52250" unit="cm"/>
+    <position name="IBFPCCapacitor_31inMVTXModulepos" x="0.63000" y="0.01325" z="-1.50750" unit="cm"/>
+    <position name="IBFPCCapacitor_32inMVTXModulepos" x="0.63000" y="0.01325" z="1.5075" unit="cm"/>
+    <position name="IBFPCCapacitor_33inMVTXModulepos" x="0.63000" y="0.01325" z="4.5225" unit="cm"/>
+    <position name="IBFPCCapacitor_34inMVTXModulepos" x="0.63000" y="0.01325" z="7.5375" unit="cm"/>
+    <position name="IBFPCCapacitor_35inMVTXModulepos" x="0.63000" y="0.01325" z="10.5525" unit="cm"/>
+    <position name="IBFPCCapacitor_36inMVTXModulepos" x="0.55750" y="0.01325" z="13.1900" unit="cm"/>
+    <position name="IBFPCCapacitor_37inMVTXModulepos" x="0.56000" y="0.01325" z="-12.03250" unit="cm"/>
+    <position name="IBFPCCapacitor_38inMVTXModulepos" x="0.56000" y="0.01325" z="-9.020000" unit="cm"/>
+    <position name="IBFPCCapacitor_39inMVTXModulepos" x="0.56000" y="0.01325" z="-6.002500" unit="cm"/>
+    <position name="IBFPCCapacitor_40inMVTXModulepos" x="0.56000" y="0.01325" z="-2.990000" unit="cm"/>
+    <position name="IBFPCCapacitor_41inMVTXModulepos" x="0.56000" y="0.01325" z="0.02500" unit="cm"/>
+    <position name="IBFPCCapacitor_42inMVTXModulepos" x="0.56000" y="0.01325" z="3.04500" unit="cm"/>
+    <position name="IBFPCCapacitor_43inMVTXModulepos" x="0.56000" y="0.01325" z="6.05500" unit="cm"/>
+    <position name="IBFPCCapacitor_44inMVTXModulepos" x="0.56000" y="0.01325" z="9.07500" unit="cm"/>
+    <position name="IBFPCCapacitor_45inMVTXModulepos" x="0.5575" y="0.01325" z="12.08500" unit="cm"/>
+    <position name="IBFPCCapacitor_46inMVTXModulepos" x="0.1400" y="0.01325" z="-11.29575" unit="cm"/>
+    <position name="IBFPCCapacitor_47inMVTXModulepos" x="0.1350" y="0.01325" z="-8.285450" unit="cm"/>
+    <position name="IBFPCCapacitor_48inMVTXModulepos" x="0.1350" y="0.01325" z="0.75955" unit="cm"/>
+    <position name="IBFPCCapacitor_49inMVTXModulepos" x="0.1350" y="0.01325" z="3.77455" unit="cm"/>
+    <position name="IBFPCCapacitor_50inMVTXModulepos" x="0.1350" y="0.01325" z="12.81941" unit="cm"/>
+    <position name="IBFPCCapacitor_51inMVTXModulepos" x="0.11" y="0.01325" z="-5.1525" unit="cm"/>
+    <position name="IBFPCCapacitor_52inMVTXModulepos" x="0.11" y="0.01325" z="-2.1375" unit="cm"/>
+    <position name="IBFPCCapacitor_53inMVTXModulepos" x="0.11" y="0.01325" z="6.9075" unit="cm"/>
+    <position name="IBFPCCapacitor_54inMVTXModulepos" x="0.11" y="0.01325" z="9.9225" unit="cm"/>
+    <position name="IBFPCResistor_1inMVTXModulepos" x="-0.79750" y="0.01325" z="11.4403" unit="cm"/>
+    <position name="IBFPCResistor_2inMVTXModulepos" x="-0.79750" y="0.01325" z="11.9222" unit="cm"/>
     <position name="MVTXModule_0inMVTXHalfStavepos" x="0" y="0" z="0" unit="cm"/>
-    <position name="MVTXHalfStave_0inMVTXStavepos" x="0.0275" y="0.01825" z="0" unit="cm"/>
+    <position name="MVTXHalfStave_0inMVTXStavepos" x="-0.0275" y="0.01825" z="0" unit="cm"/>
     <position name="Glue_1inMVTXStave_StaveStructpos" x="0" y="0.0025" z="0" unit="cm"/>
     <position name="CarbonFleeceBottom_1inMVTXStave_StaveStructpos" x="0" y="0.006" z="0" unit="cm"/>
     <position name="CFPlate_1inMVTXStave_StaveStructpos" x="0" y="0.0105" z="0" unit="cm"/>
@@ -280,7 +271,7 @@
     <position name="IBConnectorCSide_1inMVTXStave_StaveStructpos" x="0" y="0.17774" z="-15.2" unit="cm"/>
     <rotation name="IBConnectorCSide_1inMVTXStave_StaveStructrot" x="180" y="0" z="180" unit="deg"/>
     <position name="MVTXStave_StaveStruct_1inMVTXStavepos" x="0" y="-0.005" z="0" unit="cm"/>
-    <rotation name="MVTXStave_StaveStruct_1inMVTXStaverot" x="0" y="0" z="180" unit="deg"/>
+    <rotation name="MVTXStave_StaveStruct_1inMVTXStaverot" x="180" y="0" z="0" unit="deg"/>
   </define>
   <materials>
     <element name="CARBON_elm" formula="C" Z="6">
@@ -851,47 +842,38 @@
       <physvol name="MVTXChip_0" copynumber="0">
         <volumeref ref="MVTXChip"/>
         <positionref ref="MVTXChip_0inMVTXModulepos"/>
-        <rotationref ref="MVTXChip_0inMVTXModulerot"/>
       </physvol>
       <physvol name="MVTXChip_1" copynumber="1">
         <volumeref ref="MVTXChip"/>
         <positionref ref="MVTXChip_1inMVTXModulepos"/>
-        <rotationref ref="MVTXChip_1inMVTXModulerot"/>
       </physvol>
       <physvol name="MVTXChip_2" copynumber="2">
         <volumeref ref="MVTXChip"/>
         <positionref ref="MVTXChip_2inMVTXModulepos"/>
-        <rotationref ref="MVTXChip_2inMVTXModulerot"/>
       </physvol>
       <physvol name="MVTXChip_3" copynumber="3">
         <volumeref ref="MVTXChip"/>
         <positionref ref="MVTXChip_3inMVTXModulepos"/>
-        <rotationref ref="MVTXChip_3inMVTXModulerot"/>
       </physvol>
       <physvol name="MVTXChip_4" copynumber="4">
         <volumeref ref="MVTXChip"/>
         <positionref ref="MVTXChip_4inMVTXModulepos"/>
-        <rotationref ref="MVTXChip_4inMVTXModulerot"/>
       </physvol>
       <physvol name="MVTXChip_5" copynumber="5">
         <volumeref ref="MVTXChip"/>
         <positionref ref="MVTXChip_5inMVTXModulepos"/>
-        <rotationref ref="MVTXChip_5inMVTXModulerot"/>
       </physvol>
       <physvol name="MVTXChip_6" copynumber="6">
         <volumeref ref="MVTXChip"/>
         <positionref ref="MVTXChip_6inMVTXModulepos"/>
-        <rotationref ref="MVTXChip_6inMVTXModulerot"/>
       </physvol>
       <physvol name="MVTXChip_7" copynumber="7">
         <volumeref ref="MVTXChip"/>
         <positionref ref="MVTXChip_7inMVTXModulepos"/>
-        <rotationref ref="MVTXChip_7inMVTXModulerot"/>
       </physvol>
       <physvol name="MVTXChip_8" copynumber="8">
         <volumeref ref="MVTXChip"/>
         <positionref ref="MVTXChip_8inMVTXModulepos"/>
-        <rotationref ref="MVTXChip_8inMVTXModulerot"/>
       </physvol>
       <physvol name="FPCGlue_1" copynumber="1">
         <volumeref ref="FPCGlue"/>
